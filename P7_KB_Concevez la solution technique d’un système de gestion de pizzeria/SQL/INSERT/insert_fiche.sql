@@ -1,0 +1,1 @@
+INSERT INTO "public"."fiche"("recette_id", "nom", "format", "recette", "time", "ingredient_id") VALUES(1, 'CARNIVORE', 'junior', 'Mettre la sauce tomage sur la pate en suite ajouter 100g de chorizo et 100g de mozarella ', '10:00:00', 1) RETURNING "recette_id", "nom", "format", "recette", "time", "ingredient_id";

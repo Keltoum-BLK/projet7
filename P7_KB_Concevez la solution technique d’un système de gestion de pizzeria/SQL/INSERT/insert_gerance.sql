@@ -1,0 +1,2 @@
+INSERT INTO "public"."gerance"("pizzeria_id", "responsable_id") VALUES(1, 2) RETURNING "pizzeria_id", "responsable_id";
+INSERT INTO "public"."gerance"("pizzeria_id", "responsable_id") VALUES(2, 2) RETURNING "pizzeria_id", "responsable_id";

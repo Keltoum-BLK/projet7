@@ -1,0 +1,2 @@
+INSERT INTO "public"."fournisseur"("fournisseur_id", "nom", "adresse", "ville", "codepostal") VALUES(1, 'METRO', '96 rue des mesanges ', 'MONTREUIL', '93100') RETURNING "fournisseur_id", "nom", "adresse", "ville", "codepostal";
+INSERT INTO "public"."fournisseur"("fournisseur_id", "nom", "adresse", "ville", "codepostal") VALUES(2, 'MARAICHER', '72 boulevard des apprentis', '77700', 'MAGNY LE HONGRE') RETURNING "fournisseur_id", "nom", "adresse", "ville", "codepostal";

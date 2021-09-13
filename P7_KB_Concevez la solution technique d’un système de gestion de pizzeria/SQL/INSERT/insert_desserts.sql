@@ -1,0 +1,2 @@
+INSERT INTO "public"."desserts"("dessert_id", "nom", "prix_unitaire", "quantite", "quantite_min", "quantite_max", "fournisseur_id") VALUES(1, 'TIRAMISU SPECULO', 2, 100, 50, 300, 1) RETURNING "dessert_id", "nom", "prix_unitaire", "quantite", "quantite_min", "quantite_max", "fournisseur_id";
+INSERT INTO "public"."desserts"("dessert_id", "nom", "prix_unitaire", "quantite", "quantite_min", "quantite_max", "fournisseur_id") VALUES(2, 'TARTE DAIM', 2.5, 100, 50, 300, 1) RETURNING "dessert_id", "nom", "prix_unitaire", "quantite", "quantite_min", "quantite_max", "fournisseur_id";

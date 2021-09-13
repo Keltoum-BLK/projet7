@@ -1,0 +1,1 @@
+INSERT INTO "public"."livraison"("livraison_id", "date_livraison", "heure_livraison", "id_commande", "pizzeria_depart_id", "client_id", "livreur_id") VALUES(1, '2021-05-09', '19:05:00', 1, 1, 2, 3) RETURNING "livraison_id", "date_livraison", "heure_livraison", "id_commande", "pizzeria_depart_id", "client_id", "livreur_id";

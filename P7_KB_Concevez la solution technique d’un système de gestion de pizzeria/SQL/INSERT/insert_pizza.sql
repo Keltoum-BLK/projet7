@@ -1,0 +1,4 @@
+INSERT INTO "public"."pizza"("pizza_id", "nom", "format", "prix_ht") VALUES(1, 'CARNIVORE', 'junior ', 5.5) RETURNING "pizza_id", "nom", "format", "prix_ht";
+INSERT INTO "public"."pizza"("pizza_id", "nom", "format", "prix_ht") VALUES(2, 'MARGARITA ', 'junior', 5.5) RETURNING "pizza_id", "nom", "format", "prix_ht";
+INSERT INTO "public"."pizza"("pizza_id", "nom", "format", "prix_ht") VALUES(3, 'REINE', 'junior ', 5.5) RETURNING "pizza_id", "nom", "format", "prix_ht";
+INSERT INTO "public"."pizza"("pizza_id", "nom", "format", "prix_ht") VALUES(4, 'DEVIOLA', 'junior ', 5.5) RETURNING "pizza_id", "nom", "format", "prix_ht";
